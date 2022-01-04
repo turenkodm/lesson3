@@ -177,6 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
         currentIndex: 0,
         selectedItemColor: Colors.deepOrange,
+        unselectedItemColor: Colors.grey,
         onTap: (int index) {
           if (index == 0) {
 

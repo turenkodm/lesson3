@@ -70,6 +70,7 @@ class AddPage extends StatelessWidget {
           ],
           currentIndex: 1,
           selectedItemColor: Colors.deepOrange,
+          unselectedItemColor: Colors.grey,
           onTap: (int index) {
             if (index == 0) {
               _navPush(const MyHomePage());

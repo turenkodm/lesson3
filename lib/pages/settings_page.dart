@@ -71,6 +71,7 @@ class SettingsPage extends StatelessWidget {
           ],
           currentIndex: 3,
           selectedItemColor: Colors.deepOrange,
+          unselectedItemColor: Colors.grey,
           onTap: (int index) {
             if (index == 0) {
               _navPush(const MyHomePage());
